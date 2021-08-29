@@ -1,4 +1,5 @@
-//Fiz uso de alguns fóruns para tirar dúvidas especificas quanto a aplicação de certas funções que tinha esquecido, por exemplo como enviar um string por parâmetro.
+//Fiz uso de alguns fóruns para tirar dúvidas especificas quanto a aplicação de certas funções que tinha esquecido
+//William Pedrolo Bourscheid (16104663)
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -73,7 +74,7 @@ int main(){
                 }
                 free(p);
                 ptr=novo;
-                free(novo);
+                //free(novo);
              }
              free(p);
             op=0;
